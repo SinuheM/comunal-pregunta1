@@ -1,0 +1,34 @@
+body{
+    background: #fff;
+    font-family: sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.icn{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.icn.icn-rev{
+    background: url('~assets//images/icn-rpt-revision.png');
+    background-size: contain;
+}
+.icn.icn-send{
+    background: url('~assets//images/icn-rpt-enviado.png');
+    background-size: contain;
+}
+.icn.icn-solved{
+    background: url('~assets//images/icn-rpt-solucionado.png');
+    background-size: contain;
+}
+.icn.icn-message{
+    background: url('~assets//images/icn-message.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 16px;
+}
